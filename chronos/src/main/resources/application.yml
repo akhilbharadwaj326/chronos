@@ -8,8 +8,8 @@ jwt:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/chronosdb
-    username:
-    password:
+    username: postgres
+    password: Sindhu826@
     driver-class-name: org.postgresql.Driver
 
   jpa:
