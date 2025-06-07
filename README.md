@@ -88,6 +88,22 @@ Chronos is a robust, production-ready Spring Boot application for managing sched
 
 ---
 
+# Clone the repository
+git clone https://github.com/yourname/chronos.git
+cd chronos
+
+# Configure database in application.properties
+
+# Build the project
+./mvnw clean install
+
+# Run the app
+./mvnw spring-boot:run
+
+# Visit Swagger UI
+http://localhost:8080/swagger-ui.html
+
+
 ## 🧾 SQL Model
 
 ```sql
@@ -230,17 +246,3 @@ CREATE TABLE QRTZ_LOCKS (
   PRIMARY KEY (SCHED_NAME, LOCK_NAME)
 );
 
-# Clone the repository
-git clone https://github.com/yourname/chronos.git
-cd chronos
-
-# Configure database in application.properties
-
-# Build the project
-./mvnw clean install
-
-# Run the app
-./mvnw spring-boot:run
-
-# Visit Swagger UI
-http://localhost:8080/swagger-ui.html
