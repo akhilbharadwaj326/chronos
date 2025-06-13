@@ -19,7 +19,7 @@ Chronos is a robust, production-ready Spring Boot application for managing sched
 
 ## 📐 Architecture
 
-![Architecture Diagram](./chronos_apps_architecture.png)
+![Architecture Diagram](./chronos_app_architecture.png)
 
 - **Client**: Swagger, Postman, or any HTTP client
 - **REST API**: Spring Boot controller layer
